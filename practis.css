@@ -1,0 +1,551 @@
+/* for large screen */
+#headline3 {
+  justify-content: center;
+}
+#body1 {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+#b1 {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+#b2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+#b3 {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+#bd2 {
+  gap: 15px;
+}
+#new_video {
+  margin-top: 15px;
+}
+#nw1 {
+  gap: 15px;
+}
+
+/* #headline2 {
+  margin-top: 15px;
+} */
+
+#business1 {
+  gap: 10px;
+  margin-top: 10px;
+}
+#business2 {
+  gap: 15px;
+}
+#editor_body {
+  gap: 25px;
+  margin-top: 10px;
+}
+#earth1 {
+  gap: 10px;
+  margin-top: 10px;
+}
+#earth2 {
+  gap: 15px;
+}
+#earth {
+  margin-top: 20px;
+}
+#editors_picks {
+  margin-top: 20px;
+}
+#busines {
+  margin-top: 20px;
+}
+
+#inovation1 {
+  gap: 15px;
+}
+#inovation {
+  margin-top: 20px;
+}
+#inovation2 {
+  gap: 15px;
+}
+
+#science {
+  margin-top: 15px;
+}
+#science1 {
+  gap: 15px;
+}
+
+#sport1 {
+  gap: 15px;
+}
+#sport {
+  margin-top: 15px;
+}
+#sport2 {
+  gap: 15px;
+}
+
+#travel1 {
+  gap: 15px;
+}
+#travel {
+  margin-top: 15px;
+}
+#travel2 {
+  gap: 15px;
+}
+
+#news1 {
+  gap: 15px;
+}
+#news {
+  margin-top: 15px;
+}
+/* headline2 start */
+#headline2 {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+}
+#hd2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* busniess start */
+#business1 {
+  display: flex;
+}
+#bs1 {
+  width: 70%;
+}
+#bs2 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* earth start */
+#earth1 {
+  display: flex;
+}
+#er2 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  display: flex;
+}
+#er1 {
+  width: 70%;
+}
+/* large screen inovation */
+#inovation1 {
+  display: flex;
+}
+#in2 {
+  width: 70%;
+}
+#in1 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* large screen sport */
+#sp2 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  display: flex;
+}
+#sp1 {
+  width: 70%;
+}
+
+/* Large screen styles */
+#travel1 {
+  display: flex;
+  /* background-color: pink; */
+}
+
+#tr1 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#tr2 {
+  width: 70%;
+}
+.unorder2{
+  display: flex;
+}
+.itmes2 a{
+  padding: 5px 10px;
+  /* list-style: none; */
+}
+/* body button */
+.button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button:hover{
+  background-color: lightgray;
+}
+
+/* bbc button */
+.bbc-button {
+  background-color: lightgrey;
+  color: black;
+  border: none; 
+  padding: 10px 20px; 
+  text-align: center; 
+  display: inline-block; 
+  font-size: 16px; 
+  }
+  .bbc-button:hover {
+  background-color: lightgrey;
+  color:white; 
+  }
+/* hovor property */
+#bb1:hover  img,
+#bb1:hover  h4{
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+#bb2:hover img,
+#bb2:hover  h4 {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+/* b2 start */
+#b2:hover img,
+#b2:hover  h4 {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+/* b3_ star */
+#b3_1:hover  h4 {
+  text-decoration: underline;
+}
+/* b3_2 star */
+#b3_2:hover  h4 {
+  text-decoration: underline;
+}
+/* b3_3 star */
+#b3_3:hover  h4 {
+  text-decoration: underline;
+}
+/* recome 1 start */
+#recom1:hover img,
+#recom1:hover  h4 {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+/* recome 2 start */
+#recom2:hover img,
+#recom2:hover  h4 {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+/* bs 1 start */
+#bs1:hover img
+{
+  opacity: 0.5;
+}
+/* bs 2 start */
+#bs2:hover  h2 {
+  text-decoration: underline;
+}
+/* ed 1 start */
+#ed1:hover img,
+#ed1:hover  h4 {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+/* ed 2 start */
+#ed2:hover img,
+#ed2:hover  h4 {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+/* ed 3 start */
+#ed3:hover img,
+#ed3:hover  h4 {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+/* er 1 start */
+#er1:hover img
+{
+  opacity: 0.5;
+}
+/* er 2 start */
+#er2:hover  h2 {
+  text-decoration: underline;
+}
+/* in 2 start */
+#in2:hover img
+{
+  opacity: 0.5;
+}
+/* in 1 start */
+#in1:hover  h2 {
+  text-decoration: underline;
+}
+/* sc 1 start */
+#sc1:hover img,
+#sc1:hover  h4 {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+/* sc 2 start */
+#sc2:hover img,
+#sc2:hover  h4 {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+/* sp 1 start */
+#sp1:hover img
+{
+  opacity: 0.5;
+}
+/* sp 2 start */
+#sp2:hover  h2 {
+  text-decoration: underline;
+}
+/* tr 2 start */
+#tr2:hover img
+{
+  opacity: 0.5;
+}
+/* tr 1 start */
+#tr1:hover  h2 {
+  text-decoration: underline;
+}
+/* nz 1 start */
+#nz1:hover img,
+#nz1:hover  h4 {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+/* nz 2 start */
+#nz2:hover img,
+#nz2:hover  h4 {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1023px) {
+  #travel1 {
+    flex-direction: column;
+  }
+  #tr1 , #tr2 {
+    width: 100%;
+  }
+ 
+}
+@media screen and (max-width: 1023px) {
+  #sport1 {
+    flex-direction: column;
+  }
+  #sp1 , #sp2 {
+    width: 100%;
+  }
+
+}
+@media screen and (max-width: 1023px) {
+  #inovation1 {
+    flex-direction: column;
+  }
+  #in1, #in2 {
+    width: 100%;
+  }
+
+}
+@media screen and (max-width: 1023px) {
+  #earth1 {
+    flex-direction: column;
+  }
+  #er1 , #er2{
+    width: 100%;
+  }
+
+}
+@media screen and (max-width: 1023px) {
+  #business1 {
+    flex-direction: column;
+  }
+  #bs1, #bs2 {
+    width: 100%;
+  }
+
+}
+.register-button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.register-button:hover {
+  background-color: lightgrey;
+}
+.signin-button {
+  background-color: lightgray;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signin-button:hover {
+  background-color: black;
+  color: white;
+}
+#letter1 {
+  color: white;
+  background-color: black;
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+}
+#letter2 {
+  color: white;
+  background-color: black;
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+}
+#letter3 {
+  color: white;
+  background-color: black;
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+}
+#header1 {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  border-bottom-style: solid;
+  border-color: lightgray;
+  align-items: center;
+}
+#H1 {
+  gap: 20px;
+  font-size: larger;
+}
+#H3 {
+  gap: 20px;
+}
+.unorder1 {
+  display: flex;
+  justify-content: center;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 3px 13px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+ul li a:hover {
+  background-color: lightgrey;
+}
+#bord {
+  border-right-style: solid;
+  border-color: lightgray;
+}
+.container1 {
+  border-bottom-style: solid;
+  border-color: lightgray;
+}
+@media screen and (max-width: 800px) {
+  #unorder1 {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  #body1 {
+    flex-direction: column;
+  }
+  #b1,
+  #b2,
+  #b3 {
+    width: 100%;
+  }
+
+  #bd2,
+  #nw1, 
+  #business2,
+  #editor_body,
+  #earth1,
+  #earth2,
+  #inovation1,
+  #inovation2,
+  #science1,
+  #sport2,
+  #travel2,
+  #news1,
+  #headline3 {
+    flex-direction: column;
+  }
+  .unorder2{
+    flex-wrap: wrap;
+    font-size: small;
+  }
+}
+@media screen and (min-width: 425px) {
+  #headline3 img {
+    width: 80%;
+    display: block; /* Ensures that margin property works */
+    margin: 0 auto; /* Centers the image horizontally */
+    margin-top: 10PX;
+  }
+}
+
+
+
