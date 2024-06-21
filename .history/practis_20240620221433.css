@@ -541,7 +541,6 @@ ul li a:hover {
 @media screen and (min-width: 425px) {
   #headline3 img {
     width: 80%;
-    
     display: block; /* Ensures that margin property works */
     margin: 0 auto; /* Centers the image horizontally */
     margin-top: 10PX;
